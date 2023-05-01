@@ -8,4 +8,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Hotcakes.Commerce">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.Commerce.dll</HintPath>
+    </Reference>
+    <Reference Include="Hotcakes.Commerce.Dnn">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.Commerce.Dnn.dll</HintPath>
+    </Reference>
+    <Reference Include="Hotcakes.CommerceDTO">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.CommerceDTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Hotcakes.Modules">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="Hotcakes.Payment">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.Payment.dll</HintPath>
+    </Reference>
+    <Reference Include="Hotcakes.Web">
+      <HintPath>..\..\WinFormsApp1\lib\Hotcakes.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

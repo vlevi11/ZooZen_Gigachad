@@ -9,8 +9,6 @@ namespace ZooZen_Gigachad
         public Form1()
         {
             InitializeComponent();
-
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +25,8 @@ namespace ZooZen_Gigachad
             // search for and return the price group
             ApiResponse<PriceGroupDTO> response = proxy.PriceGroupsFind(priceGroupID);
 
-            textBox1.Text = response.ToString();
+            //textBox1.Text = response.ToString();
+            textBox1.Text = response.Errors[0].Description;
         }
     }
 }
